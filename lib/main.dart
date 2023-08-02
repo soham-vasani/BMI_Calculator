@@ -112,11 +112,11 @@ class _BMIState extends State<BMI> {
                       color: bmiAns <= 18.4
                           ? Colors.yellow[600]
                           : bmiAns <= 24.9
-                              ? Colors.green[400]
+                              ? Colors.green[600]
                               : bmiAns <= 39.9
-                                  ? Colors.orange[400]
+                                  ? Colors.orange[600]
                                   : bmiAns >= 40
-                                      ? Colors.red[400]
+                                      ? Colors.red[600]
                                       : Color(0xFFD8D9DA),
                     ),
                     child: Center(
@@ -143,7 +143,7 @@ class _BMIState extends State<BMI> {
                               color: Colors.yellow[600],
                             ),
                           ),
-                          const Text("Under Weight")
+                          const Text("Under Weight.")
                         ],
                       ),
                       Column(
